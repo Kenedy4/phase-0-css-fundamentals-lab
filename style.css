@@ -17,13 +17,24 @@ a {
 section#featured-property {
   display: grid;
   place-items: center;
+  text-align: center;
 }
 p {
   width: 800px;
   text-align: center;
 }
-section#details {
+#details {
   display: inline-flex;
-  justify-content: center;
+  justify-content: space-around;
   background-color: red;
+}
+#details div {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+#details div p {
+  text-align: center;
 }
